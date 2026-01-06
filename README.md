@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Placement Preparation Portal
 
 A production-ready React.js SPA (Vite) for students to practice placement quizzes, take mock interviews with video recording, track performance, and for admins to review and score student submissions.
@@ -192,3 +193,6 @@ Output will be in the `dist/` directory.
 ## License
 
 MIT
+=======
+# placementprep.portal
+>>>>>>> 1f931c2c17aa2a3cd07f8647a0f865fc385f53b3
