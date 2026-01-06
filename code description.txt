@@ -1,0 +1,75 @@
+Project: Placement Preparation Portal — React.js (single-page app)
+
+Goal (one line): Build a production-ready React SPA for students to practice placement quizzes, take mock interviews, track performance, and receive tips/feedback.
+
+Deliverables (concise):
+
+A runnable React project scaffold (create-react-app or Vite) with folder structure and README.
+
+Key pages/components implemented with functioning sample data and minimal styling (Tailwind or CSS modules).
+
+Mock API layer (local JSON or simple Express stub) and example requests.
+
+Short instructions to run, test, and extend.
+
+Core features to implement:
+
+Auth stub (login/logout, student role) — token can be mocked; persist in localStorage.
+
+Routing: Home, Dashboard, Practice (quizzes), Mock Interviews, Performance, Profile, Admin panel (stub).
+
+Practice quizzes: question list, timed quiz, submit answers, immediate scoring, show correct answers + explanations.
+
+Mock interviews: schedule mock, interviewer prompts (text), record answers (text), save transcript.
+
+Performance tracking: store quiz results, compute accuracy, speed, improvement trend, and show simple charts.
+
+Tips & feedback: auto-generated feedback based on performance thresholds (e.g., "work on DS/Algo").
+
+Admin stubs: add/edit questions, view aggregated metrics (no heavy backend).
+
+Technical requirements:
+
+React functional components + hooks (useState, useEffect, useContext).
+
+React Router for navigation.
+
+State: Context API for auth + user; keep global state minimal.
+
+Data fetching: simulated with a mock API module that returns Promises (or a small Express server example).
+
+Simple charting: use a lightweight chart lib or render SVG bars.
+
+Form validation for quiz creation/profile using simple utilities.
+
+Accessibility basics (semantic HTML, keyboard nav).
+
+Responsive layout (mobile-first).
+
+Unit test examples for 2 components (Jest + React Testing Library).
+
+Clear README with run/build/test commands and explanation of where to extend backend.
+
+Code style & constraints:
+
+Use modern ES2020+ syntax, clear names, small components (one responsibility).
+
+Keep each file < 300 lines.
+
+Provide 1–2 sample questions, 1 mock user, and 1 sample quiz run in data.
+
+Prioritize clarity and extendability over completeness.
+
+Output format requested from AI:
+
+Project folder tree.
+
+package.json dependencies.
+
+Key files fully implemented: src/main.jsx (or index.js), src/App.jsx, src/routes, src/context/AuthContext.jsx, src/components/Quiz/Quiz.jsx, src/pages/Dashboard.jsx, src/api/mockApi.js, src/data/sampleData.js, README.md.
+
+Two unit tests (example).
+
+Short run guide (3 commands).
+
+Tone: deliver code + short comments only (minimal explanation). Keep output focused and copy-paste ready.
